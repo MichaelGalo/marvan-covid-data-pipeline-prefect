@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: RAW
+    database: MARVAN_DB
+    schema: RAW
+    tables:
+      - name: CA_ANTIBODY_RAW
+      - name: CA_RAPIDTESTDEMAND_RAW
+      - name: UK_COVCASESBYDAY_RAW
+      - name: US_DEATHCOUNTS_RAW
+      - name: DATASET_METADATA_RAW

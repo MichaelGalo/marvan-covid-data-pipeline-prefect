@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: STAGED
+    database: MARVAN_DB
+    schema: STAGED
+    tables:
+      - name: STG_CA_ANTIBODY
+      - name: STG_CA_RAPIDTESTDEMAND
+      - name: STG_UK_COVCASESBYDAY
+      - name: STG_US_DEATHCOUNTS
+      - name: STG_DATASET_METADATA

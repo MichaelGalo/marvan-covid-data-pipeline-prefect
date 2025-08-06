@@ -1,0 +1,14 @@
+marvan_covid:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: jzepbcv-rxa65361
+      user: MARVAN_ADMIN
+      password: MarvanCovidProject
+      role: MARVAN_PUBLIC_ROLE
+      database: MARVAN_DB
+      warehouse: MARVAN_WH
+      schema: STAGED
+      threads: 1
+      client_session_keep_alive: false

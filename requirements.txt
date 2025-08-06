@@ -1,0 +1,10 @@
+# Add your project dependencies here
+pytest
+snowflake-connector-python[pandas]
+dbt-core
+dbt-snowflake
+dotenv
+pandas
+minio
+polars
+prefect
