@@ -18,7 +18,7 @@ This pipeline implements a **medallion architecture** (Bronze → Silver → Gol
 │   (Raw Layer)   │───▶│  (Staged Layer) │───▶│ (Cleaned Layer) │
 │                 │    │                 │    │                 │
 │ • Raw API data  │    │ • Validated     │    │ • Business-ready│
-│ • Minimal proc. │    │ • Standardized  │    │ • Aggregated    │
+│ • Immutable     │    │ • Standardized  │    │ • Aggregated    │
 │ • Direct load   │    │ • Tested        │    │ • Timestamped   │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
 ```
