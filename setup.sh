@@ -27,6 +27,13 @@ This is a starter template for Python projects.
 - \`logs/\`: Log files
 EOL
 
+# Create src/test/test_main.py with starter test code
+cat > $PROJECT_ROOT/tests/test_main.py <<EOL
+import pytest
+def test_placeholder():
+    assert True
+EOL
+
 # Create Rotating JSON Logger
 cat > $PROJECT_ROOT/src/logger.py <<EOL
 import logging
